@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.video__frame {
+    height: 300px;
+    width: 500px
+}
+
+@media (min-width: 300px) {
+    .video__frame {
+        height: 150px;
+        width: 250px
+    }
+    
+    .video__link {
+        background-color: #878686;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 556px) {
+    .video__frame {
+        height: 300px;
+        width: 500px;
+    }
+
+    .video__link {
+        display: none;
+    }
+
+}
