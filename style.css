@@ -26,12 +26,19 @@ body {
         width: 95vw;
         height: 35vh;
     }
-    
+
     .video__link {
         background-color: #878686;
         color: #fff;
         text-align: center;
         padding: 5px;
+    }
+}
+
+@media (min-width: 380px) {
+    
+    .video__link {
+        display: none;
     }
 }
 
