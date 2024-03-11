@@ -23,7 +23,8 @@ body {
 
 @media (min-width: 300px) {
     .video__frame {
-        width: 95vw
+        width: 95vw;
+        height: 35vh;
     }
     
     .video__link {
